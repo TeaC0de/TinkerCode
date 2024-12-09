@@ -1,0 +1,40 @@
+/* Basics Sytle */
+body{
+    background-color: #D6C9B4; /* Muted Beige */
+    color: #2C4A28; /* Forest Green */
+    font-family: 'Arial', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/* Header */
+header{
+    background-color: #9DBA91; /* Sage */
+    padding: 20px;
+    text-allign: center;
+}
+
+/* Main Content */
+.main-content{
+    padding: 20px;
+    background-color: #D6C9B4; /* Muted Beige */
+    border: 1px solid #2C4A28; /* Forest Green */
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3{
+    color: #2C4A28; /* Forest Green */
+    text-allign: center;
+}
+
+/* Links */
+a{
+    color: #2C4A28; /* Forest Green */
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
