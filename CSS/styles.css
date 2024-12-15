@@ -64,7 +64,7 @@ a{
     color: #2C4A28; /* Forest Green */
     text-decoration: none;
     font-weight: 500; /* Slightly bold text */
-    transition-color: 0.3s ease; /*Smooth transition on hover*/
+    transition: color 0.3s ease; /* Smooth transition on hover*/
 }
 
 a:hover{
@@ -91,6 +91,42 @@ button:hover{
 
 }
 
+#navButton {
+    background: none; /* Remove background color */
+    padding: 0; /* Remove padding */
+    border: none; /* No borders */
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Keep hover transition for transform */
+}
+
+#navButton img {
+    width: 50px; /* Icon size */
+    height: auto;
+    display: block; /* Prevent extra space around the image */
+}
+
+#navButton:hover {
+    transform: scale(1.1); /* Slightly enlarge the button */
+    transition: transform 0.3s ease;
+}
+
+.nav-menu{
+    display: none; /* Hidden */
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #9DBA91; /* Sage */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu.show{
+    display: block; /* Show menu when toggled */
+}
+
 /* Footer */
 footer{
     background-color: #9DBA91; /* Sage */
@@ -101,7 +137,7 @@ footer{
     position: relative;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -40px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on the top of the footer */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on the top of the footer */
 }
 
 footer a{
