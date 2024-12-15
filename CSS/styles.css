@@ -105,7 +105,7 @@ button:hover{
 }
 
 #navButton img {
-    width: 50px; /* Icon size */
+    width: 150px; /* Icon size */
     height: auto;
     display: block; /* Prevent extra space around the image */
 }
