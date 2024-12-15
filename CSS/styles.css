@@ -5,36 +5,71 @@ body{
     font-family: 'Arial', sans-serif;
     margin:0;
     padding:0;
+    line-height: 1.6; /* Adds spacing between lines */
+    transition: background-color 0.3s ease; /* For smooth color transition */ 
 }
 
 /* Header */
 header{
     background-color: #9DBA91; /* Sage */
-    padding: 20px;
+    padding: 30px 20px; /* Increased padding for more space */
     text-align: center;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 10px; /* Slight rounding of the edges */
+    transition: background-color 0.3s ease; /* For smooth background transition */
 }
+
+header:hover {
+    background-color: #A3C4A1; /* Lighter shade of Sage */
+}
+
 
 /* Main Content */
 .main-content{
-    padding: 20px;
+    padding: 30px; /* Increased padding for better spacing */
     background-color: #D6C9B4; /* Muted Beige */
     border: 1px solid #2C4A28; /* Forest Green */
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Softer rounding of corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 900px; /* Limit width for better layout */
+    margin: 20px auto; /* Centered the content */
 }
 
 /* Headings */
 h1, h2, h3{
     color: #2C4A28; /* Forest Green */
     text-align: center;
+    margin-bottom: 15px; /* Adds space below the headings */
+    font-weight: bold; /* Nakes the headings bold */
+}
+
+/* h1 style*/
+h1{
+    font-size: 2.5rem; /* Bigger font size for the main title */
+    color: #4C7031; /* Darker green for contrast */
+}
+
+/* h2 style*/
+h2{
+    font-size: 2rem; /* Slightly smaller font size */
+}
+
+/* h3 style*/
+h3{
+    font-size: 1.5rem; /* Smaller font size for subheadings */
 }
 
 /* Links */
 a{
     color: #2C4A28; /* Forest Green */
     text-decoration: none;
+    font-weight: 500; /* Slightly bold text */
+    transition-color: 0.3s ease; /*Smooth transition on hover*/
 }
 
 a:hover{
+    color: #A3C4A1; /* Lighter green color on hover */
     text-decoration: underline;
+    transform: scale(1.1); /* Slightly enlarge the text */
 }
+
