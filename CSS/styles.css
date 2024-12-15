@@ -99,15 +99,15 @@ button:hover{
     box-shadow: none;
     cursor: pointer;
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     top: 20px;
     right: 20px;
     transition: transform 0.3s ease; /* Keep hover transition for transform */
 }
 
 #navButton img {
-    width: 100px; /* Icon size */
+    width: 200px; /* Icon size */
     height: auto;
     display: block; /* Prevent extra space around the image */
 }
