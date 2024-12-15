@@ -99,8 +99,8 @@ button:hover{
     box-shadow: none;
     cursor: pointer;
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     top: 20px;
     right: 20px;
     transition: transform 0.3s ease; /* Keep hover transition for transform */
