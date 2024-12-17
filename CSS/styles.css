@@ -11,7 +11,6 @@ body{
 
 /* Header */
 header{
-    position: relative; 
     background-color: #9DBA91; /* Sage */
     padding: 30px 20px; /* Increased padding for more space */
     text-align: center;
