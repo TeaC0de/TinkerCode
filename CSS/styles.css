@@ -17,7 +17,6 @@ header{
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     border-radius: 10px; /* Slight rounding of the edges */
     transition: background-color 0.3s ease; /* For smooth background transition */
-    position: relative;
 }
 
 header:hover {
@@ -100,17 +99,22 @@ button:hover{
     box-shadow: none;
     cursor: pointer;
     position: absolute;
-    width: 220px;
-    height: 220px;
+    width: 50px;
+    height: 50px;
     top: 10px;
     right: 10px;
     transition: transform 0.3s ease; /* Keep hover transition for transform */
+    z-index: 1; /* Button is beneath the image */
 }
 
 #navButton img {
-    width: 200px; /* Icon size */
-    height: auto;
+    width: 220px; 
+    height: 220px;
+    position: relative;
     display: block; /* Prevent extra space around the image */
+    top: -85px;
+    right: -85px;
+    z-index: 2; /* Image is on top and clickable*/
 }
 
 #navButton:hover {
