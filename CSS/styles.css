@@ -11,6 +11,7 @@ body{
 
 /* Header */
 header{
+    position: relative; 
     background-color: #9DBA91; /* Sage */
     padding: 30px 20px; /* Increased padding for more space */
     text-align: center;
@@ -107,7 +108,7 @@ button:hover{
 }
 
 #navButton img {
-    width: 150px; /* Icon size */
+    width: 200px; /* Icon size */
     height: auto;
     display: block; /* Prevent extra space around the image */
 }
