@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Basics While Building My Blog</title>
+    <link rel="stylesheet" href="/TinkerCode/CSS/styles.css">
+</head>
+<body>
+            <!-- Navigation Button (Hamburger Icon) -->
+            <button id="navButton" aria-label="Toggle Navigation Menu">
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            
+            <!-- Navigation Menu, initially hidden -->
+            <nav id="navMenu" class="nav-menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="Projects/projects.html">Projects</a></li>
+                    <li><a href="LearningPath/learning-path.html">Learning Path</a></li>
+                    <li><a href="PlayfulParadise/playful-paradise.html">Playful Paradise</a></li>
+                    <li><a href="Contact/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    <article>
+        <header>
+            <h1>Building My Blog: HTML Basics in Action</h1>
+        </header>
+        
+        <section>
+            <h2>Introduction</h2>
+            <p>When I decided to start my blog, I realized it was the perfect opportunity to learn HTML from scratch. With <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a> as my guide, I dove into the world of web development and discovered just how much thought goes into structuring a simple web page.</p>
+        </section>
+
+        <section>
+            <h2>What I Learned</h2>
+            <ul>
+
+                <li><strong>Semantic Elements:</strong> I learned how <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> create meaningful divisions on a webpage, improving accessibility and readability.
+                    
+                    <pre><code>&lt;header&gt;
+    &lt;h1&gt;Welcome to My Blog&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main&gt;
+    &lt;section&gt;
+        &lt;h2&gt;About Me&lt;/h2&gt;
+        &lt;p&gt;This is where I share my journey of learning web development.&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+    &lt;p&gt;&copy; 2024 My Blog&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+                </li>
+
+                <li><strong>Headings and Text:</strong> Structuring content with <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> for headings and <code>&lt;p&gt;</code> for paragraphs gave my blog clarity and hierarchy.
+                   
+                    <pre><code>&lt;h1&gt;Main Title&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;
+&lt;p&gt;This is a paragraph explaining the details of the topic.&lt;/p&gt;</code></pre>
+                </li>
+
+                <li><strong>Links and Navigation:</strong> Using <code>&lt;a&gt;</code> tags, I created hyperlinks that connected different sections of my blog and external resources.
+                  
+                    <pre><code>&lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML"&gt;Learn more about HTML&lt;/a&gt;</code></pre>
+                </li>
+
+                <li><strong>Images and Metadata:</strong> Adding visuals with <code>&lt;img&gt;</code> tags and understanding <code>&lt;meta&gt;</code> tags to improve SEO were fun and practical discoveries.
+                    
+                    <pre><code>&lt;meta name="description" content="A blog about learning HTML basics and building projects."&gt;
+&lt;img src="my-image.jpg" alt="An image representing my blog theme"&gt;</code></pre>
+                </li>
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>Challenges and Solutions</h2>
+            <p>Learning HTML was not without its hurdles. Here are some examples of challenges I faced and how I solved them:</p>
+            
+            <ul>
+                <li><strong>Challenge 1: Proper Nesting of Elements</strong>
+                    <p>One challenge I encountered was understanding how to properly nest elements. It was easy to accidentally break the structure by placing elements in the wrong order.</p>
+                    <pre><code>&lt;div&gt;
+            &lt;p&gt;This is a paragraph inside a div.&lt;/p&gt;
+            &lt;span&gt;This is a span inside the div.&lt;/span&gt;
+        &lt;/div&gt;</code></pre>
+                    <p><strong>Solution:</strong> I learned that elements should be nested correctly to avoid display issues. Practice and referring to MDN documentation helped me grasp this concept quickly.</p>
+                </li>
+        
+                <li><strong>Challenge 2: Ensuring Proper Link Structure</strong>
+                    <p>Creating links that worked correctly was initially tricky. I needed to make sure that relative and absolute paths were used appropriately to avoid broken links.</p>
+                    <pre><code>&lt;a href="about.html"&gt;About Me&lt;/a&gt; <!-- relative link -->
+        &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt; <!-- absolute link --></code></pre>
+                    <p><strong>Solution:</strong> By experimenting with different types of paths and understanding their usage, I became more comfortable with creating links that lead to the right places.</p>
+                </li>
+        
+                <li><strong>Challenge 3: Understanding Attribute Values</strong>
+                    <p>Another challenge was understanding the proper use of attribute values, such as <code>alt</code> text for images and <code>target</code> for links.</p>
+                    <pre><code>&lt;img src="image.jpg" alt="A scenic view of mountains"&gt;
+        &lt;a href="https://example.com" target="_blank"&gt;External Link&lt;/a&gt;</code></pre>
+                    <p><strong>Solution:</strong> I researched best practices and learned that using descriptive <code>alt</code> text improves accessibility, and the <code>target="_blank"</code> attribute opens links in a new tab when needed.</p>
+                </li>
+            </ul>
+        </section>
+        
+
+        <section>
+            <h2>Reflection</h2>
+            <p>Laying out the HTML for my blog was both challenging and rewarding. It’s exciting to see the structure take shape, even in its simplest form. Next up, I’ll be diving into CSS to bring the design to life — stay tuned! 🌱</p>
+        </section>
+
+        <section>
+            <p><a href="learning-path.html">Back to Learning Path</a> | <a href="https://teac0de.github.io/TinkerCode/">Back to TinkerCode</a></p>
+        </section>
+
+    </article>
+    <footer>
+        <p><strong>✨ Thanks for stopping by! Keep tinkering and creating. ✨</strong></p>
+    <p>Stay updated on my latest projects and posts by following me on <a href="https://github.com/TeaC0de" target="_blank">GitHub</a> or reaching out via <a href="mailto:teac0dezone@gmail.com">E-Mail</a>. I’m always up for a chat! ✨</p>
+  </footer>
+</body>
+</html>
